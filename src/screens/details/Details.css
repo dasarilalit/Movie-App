@@ -1,0 +1,96 @@
+.details {
+    text-align: left;
+}
+
+.leftDetails {
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.middleDetails {
+    width: 60%;
+    color: whitesmoke;
+}
+
+.rightDetails {
+    color: whitesmoke;
+    width: 20%;
+}
+
+.marginTop16 {
+    margin-top: 16px;
+}
+
+.centerAlign {
+    text-align: center;
+}
+
+.marginBottom16 {
+    margin-bottom: 16px;
+}
+
+.bold {
+    font-weight: bold;
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+    cursor: pointer;
+}
+
+.black {
+    color: white;
+    cursor: pointer;
+}
+
+.trailerContainer {
+    cursor: pointer;
+    margin: 20px 10px 16px 0px !important;
+}
+
+.gridTile {
+    cursor: pointer;
+}
+
+.back {
+    color: white;
+    margin-left: 30px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.flex-containerDetails {
+    display: flex;
+    margin-top: 20px;
+}
+
+.flex-containerDetails>div {
+    margin: 0px 16px;
+}
+
+iframe {
+    width: 100% !important;
+}
+
+@media (max-width: 992px) {
+    .leftDetails {
+        width: 100%;
+        text-align: center;
+    }
+    .middleDetails {
+        width: 100%;
+    }
+    .rightDetails {
+        width: 100%;
+    }
+    .flex-containerDetails {
+        flex-direction: column;
+    }
+    .paddingRight {
+        margin-right: 32px;
+    }
+}
